@@ -24,8 +24,8 @@ body {
 }
 
 .sidebar .profile-pic {
-    width: 120px; /* Adjust to decrease size */
-    height: 120px; /* Match width */
+    width: 60px; /* Adjust to decrease size */
+    height: 60px; /* Match width */
     border-radius: 50%; /* Makes the image circular */
     display: block;
     margin: 0 auto 15px;
