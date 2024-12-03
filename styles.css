@@ -2,13 +2,13 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #FAEBD7;
+    background-color: #c5e8e0;
     color: #333;
 }
 
 /* Top Header Section */
 .top-header {
-    background-color: #ffffff; /* Background color */
+    background-color: #d1bd9d; /* Background color */
     padding: 15px 30px; /* Spacing inside header */
     border-bottom: 1px solid #ddd; /* Optional divider line */
     display: flex; /* Flexbox for horizontal alignment */
@@ -16,7 +16,6 @@ body {
     align-items: center; /* Vertically center elements */
     width: 100%; /* Full-width header */
     z-index: 1000; /* Ensure it’s above other elements */
-    border-bottom: 1px solid #ddd;
     border-radius: 0 0 10px 10px; /* Smooth corners for bottom of header */
 }
 
