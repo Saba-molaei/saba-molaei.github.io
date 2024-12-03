@@ -39,7 +39,6 @@ body {
     color: #D3D3D3;
     margin-left: 10px; /* Increased spacing */
     border-radius: 5px;
-    padding: 5px 15px; /* Button-like appearance */
 }
 
 .top-header .cv-link:hover {
