@@ -38,8 +38,9 @@ body {
     font-size: 16px; /* Font size for CV link */
     text-decoration: none; /* Remove underline */
     color: #0077cc; /* Link color */
-    margin-left: auto; /* Push it to the far right */
     border-radius: 5px;
+    margin-left: 20px; /* Add more space between name and CV link */
+    padding: 5px 15px; /* Adjust padding for button-like appearance */
 }
 
 .top-header .cv-link:hover {
