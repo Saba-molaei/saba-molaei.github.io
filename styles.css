@@ -20,23 +20,23 @@ body {
     position: fixed;
     height: 100%;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .sidebar .profile-pic {
-    width: 100px;
-    border-radius: 50%;
+    width: 120px; /* Adjust to decrease size */
+    height: 120px; /* Match width */
+    border-radius: 50%; /* Makes the image circular */
     display: block;
     margin: 0 auto 15px;
 }
 
 .sidebar h1 {
-    text-align: center;
     font-size: 24px;
     margin: 10px 0;
 }
 
 .sidebar p {
-    text-align: center;
     font-size: 16px;
     color: #666;
 }
@@ -44,7 +44,6 @@ body {
 .sidebar .social-links {
     list-style: none;
     padding: 0;
-    text-align: center;
 }
 
 .sidebar .social-links li {
@@ -78,4 +77,14 @@ body {
 .content ul {
     list-style: disc;
     padding-left: 20px;
+}
+
+/* CV Section Link */
+#cv a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+#cv a:hover {
+    text-decoration: underline;
 }
