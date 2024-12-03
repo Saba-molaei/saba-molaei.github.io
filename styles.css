@@ -88,3 +88,44 @@ body {
 #cv a:hover {
     text-decoration: underline;
 }
+/* Top Header Section */
+.top-header {
+    background-color: #ffffff; /* Background color */
+    padding: 15px 30px; /* Spacing inside header */
+    border-bottom: 1px solid #ddd; /* Optional divider line */
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between name and CV link */
+    align-items: center; /* Vertically center elements */
+    position: fixed; /* Fix it at the top of the page */
+    width: 100%; /* Full-width header */
+    z-index: 1000; /* Ensure it’s above other elements */
+}
+
+.top-header .header-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure proper layout alignment */
+}
+
+.top-header .name {
+    font-size: 24px; /* Adjust name font size */
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.top-header .cv-link {
+    font-size: 16px; /* Font size for CV link */
+    text-decoration: none; /* Remove underline */
+    color: #0077cc; /* Link color */
+    margin-left: auto; /* Push it to the far right */
+    border: 1px solid #0077cc; /* Optional button styling */
+    padding: 5px 10px; /* Button-like appearance */
+    border-radius: 5px;
+}
+
+.top-header .cv-link:hover {
+    background-color: #0077cc;
+    color: #ffffff; /* Invert colors on hover */
+}
+
