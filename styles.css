@@ -29,13 +29,13 @@ body {
     font-size: 22px; /* Adjust name font size */
     font-weight: bold;
     margin: 0;
-    color: #D3D3D3;
+    color: #333;
 }
 
 .top-header .cv-link {
     font-size: 22px;
     text-decoration: none;
-    color: #D3D3D3;
+    color: #333;
     margin-left: 10px; /* Increased spacing */
 }
 
