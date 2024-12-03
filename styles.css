@@ -24,11 +24,11 @@ body {
 }
 
 .sidebar .profile-pic {
-    width: 60px; /* Adjust to decrease size */
-    height: 60px; /* Match width */
-    border-radius: 50%; /* Makes the image circular */
+    width: 120px; /* Size control */
+    height: 120px; /* Matches width */
+    border-radius: 50%; /* Circular shape */
     display: block;
-    margin: 0 auto 15px;
+    margin: 0 auto 15px; /* Center alignment */
 }
 
 .sidebar h1 {
