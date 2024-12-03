@@ -2,13 +2,13 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #c5e8e0;
+    background-color: #daebe7;
     color: #333;
 }
 
 /* Top Header Section */
 .top-header {
-    background-color: #d1bd9d; /* Background color */
+    background-color: #ebe6da; /* Background color */
     padding: 15px 30px; /* Spacing inside header */
     border-bottom: 1px solid #ddd; /* Optional divider line */
     display: flex; /* Flexbox for horizontal alignment */
