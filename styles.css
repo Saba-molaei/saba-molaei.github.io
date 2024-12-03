@@ -26,7 +26,6 @@ body {
 .sidebar .profile-pic {
     width: 20px; /* Size control */
     height: 20px; /* Matches width */
-    border-radius: 50%; /* Circular shape */
     display: block;
     margin: 0 auto 15px; /* Center alignment */
 }
