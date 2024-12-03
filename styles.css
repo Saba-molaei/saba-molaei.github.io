@@ -24,8 +24,8 @@ body {
 }
 
 .sidebar .profile-pic {
-    width: 120px; /* Size control */
-    height: 120px; /* Matches width */
+    width: 200px; /* Size control */
+    height: 200px; /* Matches width */
     border-radius: 50%; /* Circular shape */
     display: block;
     margin: 0 auto 15px; /* Center alignment */
