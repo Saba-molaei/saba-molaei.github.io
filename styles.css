@@ -28,10 +28,10 @@ body {
 }
 
 .top-header .name {
-    font-size: clamp(2rem, 3vw, 4rem); /* Bigger name */
+    font-size: clamp(3rem, 4vw, 5rem); /* Bigger name */
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #333;
+    color: #A9A9A9;
 }
 
 .top-header .nav-links {
@@ -45,13 +45,6 @@ body {
     font-size: clamp(1rem, 2vw, 1.5rem);
     text-decoration: none;
     color: #0077cc;
-    padding: 0.5em 1em;
-    border-radius: 0.5rem;
-}
-
-.top-header .cv-link:hover, .top-header .header-link:hover {
-    background-color: #0077cc;
-    color: #ffffff;
 }
 
 /* Sidebar */
