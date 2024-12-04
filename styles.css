@@ -59,8 +59,7 @@ body {
     border-radius: 1rem;
     box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.1);
     width: auto; /* Adjust width based on content */
-    max-width: 25vw; /* Limit maximum width */
-    min-width: 15rem; /* Ensure sidebar doesn't shrink too much */
+    position: fixed;
 }
 
 .sidebar .profile-pic {
