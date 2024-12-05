@@ -48,6 +48,18 @@ body {
     margin-left: clamp(2rem, 3vw, 4rem);
 }
 
+/* Header Navigation Styles */
+.header-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #0077cc;
+    font-size: 1rem;
+}
+
 /* Sidebar */
 .sidebar {
     display: flex;
@@ -59,7 +71,9 @@ body {
     box-sizing: border-box;
     border-radius: 1rem;
     box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.1);
-    width: 25%
+    flex: 0 0 auto; /* Allow dynamic resizing based on content */
+    max-width: 20vw;
+    min-width: 15vw;
 }
 
 .sidebar .profile-pic {
@@ -133,4 +147,3 @@ body {
         padding: 2vh 2vw;
     }
 }
-
