@@ -103,7 +103,7 @@ body {
 .content {
     margin: 0 auto; /* Center content */
     padding: 5vh 5vw;
-    max-width: 800px; /* Restrict content width */
+    max-width: 700px; /* Restrict content width */
 }
 
 .content h2 {
