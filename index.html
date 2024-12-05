@@ -13,59 +13,83 @@
     <!-- Header Section -->
     <header class="top-header">
         <div class="header-container">
-            <h1 class="name">Saba Molaei</h1>
-            <nav>
-                <a href="CV_saba.pdf" class="cv-link" target="_blank">CV</a>
-                <a href="#about" class="header-link">About</a>
-                <a href="#updates" class="header-link">Updates</a>
-                <a href="#research" class="header-link">Research</a>
-                <a href="#teaching" class="header-link">Teaching</a>
-            </nav>
+            <div class="header-left">
+                <h1 class="name">Saba Molaei</h1>
+                <nav class="header-nav">
+                    <a href="#about">About</a>
+                    <a href="#research">Research</a>
+                    <a href="#teaching">Teaching</a>
+                    <a href="#updates">Updates</a>
+                    <a href="CV_saba.pdf" class="cv-link" target="_blank">CV</a>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <div class="container">
-        <!-- Sidebar Section -->
-        <aside class="sidebar">
-            <img src="profile.jpg" alt="Your Photo" class="profile-pic">
-            <p>CS Undergraduate Student</p>
-            <ul class="social-links">
-                <li><a href="#linkedin">LinkedIn</a></li>
+    <!-- Main Content Section -->
+    <main class="content">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                I am an undergraduate student at Sharif University of Technology specializing in Computational Geometry and Reconfiguration Algorithms. My interests include Graph Algorithms and Computer Vision, alongside solving challenging mathematical and computational problems.
+            </p>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research">
+            <h2>Research</h2>
+            <article>
+                <h3>Reconfiguration of Lattice-based Sliding Squares</h3>
+                <p>
+                    Collaborating with Hugo Alves Akitaya, this project explores efficient reconfiguration of modular robotic systems using meta-modules while maintaining connectivity. Developed a parallel algorithm for reconfiguration using sliding moves.
+                    <br><b>Papers:</b> 
+                    <ul>
+                        <li>Finding Shortest Reconfiguration Sequences for Modular Robots (accepted at FWCG 2024).</li>
+                        <li>Parallel Sliding Squares (submitted to SOCG 2025).</li>
+                    </ul>
+                </p>
+            </article>
+            <article>
+                <h3>Graph Threading</h3>
+                <p>
+                    Working with Rebecca Lin, this research addresses graph threading with turn costs in 3D grid graphs. Developed lower bounds, hardness proofs, and approximation algorithms for graph threading problems.
+                </p>
+            </article>
+            <article>
+                <h3>Quasi-Twisting Doubly-Covered Rectangles</h3>
+                <p>
+                    Investigating the quasi-twisting of doubly-covered rectangles into different polyhedral forms under the guidance of Alireza Zarei. The project involves identifying quasigeodesics on convex rectangles.
+                    <br><b>Paper:</b> Preparing submission for EuroCG 2025.
+                </p>
+            </article>
+        </section>
+
+        <!-- Teaching Section -->
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <ul>
+                <li>Head Teaching Assistant, Analysis of Algorithms (2023)</li>
+                <li>Teaching Assistant, Data Structures (2022, 2023)</li>
+                <li>Teaching Assistant, Linear Algebra (2021)</li>
+                <li>Mentorship, Rasta Summer School, CS teaching group at SUT</li>
+                <li>Lecturer, Orthogonal Art Gallery Problem, Student Scientific Association of SUT</li>
             </ul>
-        </aside>
+        </section>
 
-        <!-- Main Content Section -->
-        <main class="content">
-            <!-- About Section -->
-            <section id="about">
-                <h2>About</h2>
-                <p>I am an undergraduate student interested in Computational Geometry and Reconfiguration Algorithms. My areas of interest include:</p>
-                <ul>
-                    <li>Algorithm Design</li>
-                    <li>Data Structures</li>
-                    <li>Geometry-Based Problem Solving</li>
-                </ul>
-            </section>
-
-            <!-- Updates Section -->
-            <section id="updates">
-                <h2>Updates</h2>
-                <p>Here, I will share updates about my latest academic activities, projects, and publications.</p>
-            </section>
-
-            <!-- Research Section -->
-            <section id="research">
-                <h2>Research</h2>
-                <p>Details about my research, including ongoing projects and collaborations.</p>
-            </section>
-
-            <!-- Teaching Section -->
-            <section id="teaching">
-                <h2>Teaching</h2>
-                <p>I have experience in teaching subjects like Algorithms, Data Structures, and Computational Geometry.</p>
-            </section>
-        </main>
-    </div>
+        <!-- Updates Section -->
+        <section id="updates">
+            <h2>Updates</h2>
+            <p>
+                Recent highlights:
+            </p>
+            <ul>
+                <li>Paper accepted to FWCG 2024 on modular robots.</li>
+                <li>Submitted a paper to SOCG 2025 on sliding square algorithms.</li>
+                <li>Research on graph threading is progressing with promising results.</li>
+                <li>Ongoing mentorship at Rasta Summer School.</li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
-
